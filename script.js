@@ -21,3 +21,23 @@ $(document).ready(function() {
     $("#category-select").on("change", function() {
       // Get the selected category ID
       categoryId = $(this).val();
+
+      // Clear any existing questions from the DOM
+      $("main").empty();
+  
+      // Call the getQuestions function with the selected category ID
+      getQuestions(categoryId);
+    });
+  
+    function getQuestions(categoryId) {
+      $.ajax({
+        url: "https://opentdb.com/api.php",
+        method: "GET",
+        data: {
+          amount: 10, // number of questions to retrieve
+          category: categoryId, // ID of the selected category
+          type: "multiple" // type of questions (multiple choice)
+        },
+        success: function(response) {
+          // Handle the response from the API
+          let questions = response.results;
