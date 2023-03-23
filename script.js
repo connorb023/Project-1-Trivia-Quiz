@@ -17,3 +17,7 @@ $(document).ready(function() {
           $("#category-select").append(option);
         });
       },
+ // Add an event listener to the category dropdown menu
+    $("#category-select").on("change", function() {
+      // Get the selected category ID
+      categoryId = $(this).val();
