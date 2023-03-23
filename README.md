@@ -19,8 +19,9 @@ This project is tests the users trivia knowledge on vast categories through ques
 * Open Trivia Database API
 
 # Screenshots 
-![Trivia page with questions](https://freeimage.host/i/HwlHpxp)
-![Final score result](https://freeimage.host/i/HwlHt5J)
+* [Trivia page with questions](https://freeimage.host/i/HwlHpxp)
+
+* [Final score result](https://freeimage.host/i/HwlHt5J)
 
 # Lets Get Started
 
