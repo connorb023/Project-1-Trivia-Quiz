@@ -51,4 +51,14 @@
     margin: 10px 0;
     font-size: 18px;
   }
+  .answers li {
+    margin: 10px 0;
+  }
+  
+  .answers input[type=radio] {
+    margin-right: 10
+  }
+  .result {
+    text-align: center;
+  }
   
