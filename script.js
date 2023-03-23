@@ -97,3 +97,25 @@ error: function() {
           wrongAnswers.push(answerText);
         }
       });
+ // Calculate the percentage score
+      let numCorrect = 10 - wrongAnswers.length;
+      percentageScore = numCorrect / 10 * 100;
+      
+      // Show the results on the page
+      $("main").empty();
+      let resultDiv = $("<div>").addClass("result");
+      let scoreDiv = $("<div>").addClass("score").text("Your score: " + percentageScore + "%");
+      let feedbackDiv = $("<div>").addClass("feedback");
+      
+      if (percentageScore >= 80) {
+        feedbackDiv.text("Great job!");
+      } else if (percentageScore >= 50) {
+        feedbackDiv.text("Not bad, but you could do better.");
+      } else {
+        feedbackDiv.text("Better luck next time.");
+      }
+      resultDiv.append(scoreDiv).append(feedbackDiv);
+      $("main").append(resultDiv);
+      
+    });
+  });
