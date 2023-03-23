@@ -18,3 +18,24 @@
     font-size: 36px;
     font-weight: normal;
   }
+.options {
+    margin-top: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select {
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
