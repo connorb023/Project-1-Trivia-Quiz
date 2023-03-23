@@ -21,7 +21,7 @@ This project is tests the users trivia knowledge on vast categories through ques
 # Screenshots 
 * [Trivia page with questions](https://iili.io/HwlHpxp.png)
 
-* [Final score result]([https://freeimage.host/i/HwlHt5J](https://iili.io/HwlHt5J.png))
+* [Final score result]([https://freeimage.host/i/HwlHt5J](https://iili.io/HwlHt5J.png)
 
 # Lets Get Started
 
