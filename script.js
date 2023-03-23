@@ -41,3 +41,10 @@ $(document).ready(function() {
         success: function(response) {
           // Handle the response from the API
           let questions = response.results;
+ // Add each question to the DOM
+          questions.forEach(function(question, index) {
+            let questionDiv = $("<div>").addClass("question");
+            let questionNumber = $("<h2>").text("Question " + (index + 1));
+            let questionText = $("<p>").addClass("question-text").html(question.question);
+            let answersList = $("<ul>").addClass("answers");
+  
