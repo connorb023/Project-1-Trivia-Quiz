@@ -18,6 +18,23 @@ This project is tests the users trivia knowledge on vast categories through ques
 * JQuery
 * Open Trivia Database API
 
+# Screenshots 
+![Trivia page with questions](https://freeimage.host/i/HwlHpxp)
+![Final score result](https://freeimage.host/i/HwlHt5J)
+
+# Lets Get Started
+
+
+
+# Future improvements
+* Ability to have two people play trivia head-to-head locally or online
+* Option to see wrong answers
+* More categories
+* Selectable question lengths
+* Different answersing options: fill in the blank, truth or false, image selector 
+
+# Known Iussues 
+Known issues will be here and continue to be updated
 
 # Lets Get Started
 
