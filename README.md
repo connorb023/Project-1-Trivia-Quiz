@@ -19,7 +19,7 @@ This project is tests the users trivia knowledge on vast categories through ques
 * Open Trivia Database API
 
 # Screenshots 
-* [Trivia page with questions](https://freeimage.host/i/HwlHpxp)
+* [Trivia page with questions](https://iili.io/HwlHpxp.png)
 
 * [Final score result](https://freeimage.host/i/HwlHt5J)
 
@@ -48,5 +48,5 @@ Click here:
 * Selectable question lengths
 * Different answersing options: fill in the blank, truth or false, image selector 
 
-# Known Iussues 
+# Known Issues 
 Known issues will be here and continue to be updated
