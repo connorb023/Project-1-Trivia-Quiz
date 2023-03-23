@@ -25,7 +25,7 @@ This project is tests the users trivia knowledge on vast categories through ques
 
 # Lets Get Started
 
-
+https://connorb023.github.io./
 
 # Future improvements
 * Ability to have two people play trivia head-to-head locally or online
