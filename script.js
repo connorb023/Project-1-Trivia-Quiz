@@ -73,3 +73,27 @@ $(document).ready(function() {
             $("main").append(questionDiv);
           });
         },
+error: function() {
+          // Handle any errors that occur while making the request
+          console.log("Error: Unable to retrieve quiz questions.");
+        }
+      });
+    }
+  
+    // Add an event listener to the submit button
+    $("footer button").on("click", function() {
+      // Get all the selected answers
+      let selectedAnswers = $("input[type=radio]:checked");
+  
+      // Reset the wrongAnswers array
+      wrongAnswers = [];
+  
+      // Loop through each selected answer and check if it is correct
+      selectedAnswers.each(function() {
+        let isCorrect = $(this).attr("data-correct") === "true";
+        let answerText = $(this).siblings("label").text();
+      
+        if (!isCorrect) {
+          wrongAnswers.push(answerText);
+        }
+      });
