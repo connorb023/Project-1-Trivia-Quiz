@@ -37,7 +37,7 @@ This project is tests the users trivia knowledge on vast categories through ques
 Known issues will be here and continue to be updated
 
 # Lets Get Started
-
+Click here: 
 
 
 # Future improvements
