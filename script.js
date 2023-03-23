@@ -47,4 +47,29 @@ $(document).ready(function() {
             let questionNumber = $("<h2>").text("Question " + (index + 1));
             let questionText = $("<p>").addClass("question-text").html(question.question);
             let answersList = $("<ul>").addClass("answers");
+   // Add each answer to the answer list
+            let answers = question.incorrect_answers.concat(question.correct_answer);
+            answers.sort(); // Shuffle the answers so that the correct answer is not always last
+            answers.forEach(function(answer) {
+              let listItem = $("<li>");
+              let radio = $("<input>").attr({
+                type: "radio",
+                name: "question-" + index,
+                value: answer
+              });
+              let label = $("<label>").text(answer);
+              listItem.append(radio).append(label);
   
+              // If this is the correct answer, mark it with the data-correct attribute
+             
+              if (answer === question.correct_answer) 
+              
+              {radio.attr("data-correct", true);}
+  
+              answersList.append(listItem);
+            });
+  
+            questionDiv.append(questionNumber).append(questionText).append(answersList);
+            $("main").append(questionDiv);
+          });
+        },
