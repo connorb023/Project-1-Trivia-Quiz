@@ -27,7 +27,7 @@ This project is tests the users trivia knowledge on vast categories through ques
 
 Click here: https://connorb023.github.io./
 
-# Known Iussues 
+# Known Issues 
 Known issues will be here and continue to be updated
 
 
