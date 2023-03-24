@@ -41,7 +41,7 @@ $(document).ready(function() {
         success: function(response) {
           // Handle the response from the API
           let questions = response.results;
- // Add each question to the DOM
+    // Add each question to the DOM
           questions.forEach(function(question, index) {
             let questionDiv = $("<div>").addClass("question");
             let questionNumber = $("<h2>").text("Question " + (index + 1));
@@ -49,7 +49,8 @@ $(document).ready(function() {
             let answersList = $("<ul>").addClass("answers");
    // Add each answer to the answer list
             let answers = question.incorrect_answers.concat(question.correct_answer);
-            answers.sort(); // Shuffle the answers so that the correct answer is not always last
+            answers.sort(); 
+              // Shuffle the answers so that the correct answer is not always last
             answers.forEach(function(answer) {
               let listItem = $("<li>");
               let radio = $("<input>").attr({
@@ -97,7 +98,7 @@ error: function() {
           wrongAnswers.push(answerText);
         }
       });
- // Calculate the percentage score
+        // Calculate the percentage score
       let numCorrect = 10 - wrongAnswers.length;
       percentageScore = numCorrect / 10 * 100;
       
