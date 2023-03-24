@@ -44,6 +44,3 @@ Known issues will be here and continue to be updated
 * More categories
 * Selectable question lengths
 * Different answersing options: fill in the blank, truth or false, image selector 
-
-# Known Issues 
-Known issues will be here and continue to be updated
