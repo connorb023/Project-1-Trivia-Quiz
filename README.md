@@ -27,13 +27,6 @@ This project is tests the users trivia knowledge on vast categories through ques
 
 Click here: https://connorb023.github.io./
 
-# Future improvements
-* Ability to have two people play trivia head-to-head locally or online
-* Option to see wrong answers
-* More categories
-* Selectable question lengths
-* Different answersing options: fill in the blank, truth or false, image selector 
-
 # Known Iussues 
 Known issues will be here and continue to be updated
 
